@@ -1,0 +1,92 @@
+.secao-topo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+h1{
+  font-size:24px 
+}
+
+span{
+  color: #6592c9;
+}
+
+a{
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.link-secao-topo{
+  text-transform: uppercase;
+  line-height: 18px;
+  text-decoration: none;
+  padding: 0px 15px 10px 15px;
+  color: #3d3d3d
+}
+
+.titulo-galeria {
+    background-image: url('../../../public/assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-container {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.secao-container h2{
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.quartos-img{
+  width: 33%;
+  padding-bottom: 10px;
+}
+
+.quarto-informacoes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.quarto-informacoes li {
+  width: 25%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.quartos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape-info {
+  width: 32%;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+}
+
+.rodape {
+  height: 50px;
+  background-color: #49997d;
+  color:#fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape-icone{
+  height: 20px
+  
+}

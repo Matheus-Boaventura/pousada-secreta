@@ -1,0 +1,37 @@
+header {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 0px;
+    padding: 10px 20px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 2px solid #6592c9;
+}
+  
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size:24px 
+}
+
+span{
+    color: #6592c9;
+}
+
+a{
+    text-decoration: none;
+    color: #3d3d3d;
+  }
+
+.link-secao-topo{
+    text-transform: uppercase;
+    line-height: 18px;
+    text-decoration: none;
+    padding: 0px 15px 10px 15px;
+    color: #3d3d3d
+  }

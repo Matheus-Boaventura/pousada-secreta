@@ -1,0 +1,23 @@
+.img-secao-praia{
+    background-image: url('../../../public/assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-secao-praia{
+    color: #fff;
+    font-size: 28px;
+    background-color: #0a9077b3;
+    border: 1px solid;
+    padding: 30px 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card-secao-praia h2{
+    margin-bottom: 30px;
+}

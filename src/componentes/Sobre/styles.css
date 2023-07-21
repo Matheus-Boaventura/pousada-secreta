@@ -1,0 +1,33 @@
+.secao-sobre-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.secao-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 105px;
+    margin-right: 105px;
+    flex-wrap: wrap;
+}
+
+  .img-secao-sobre{
+    width: 100px;
+    height: 113px;
+    object-fit: cover;
+    margin-left:-60px;
+    margin-bottom: 60px;
+}
+
+   .card-secao-sobre{
+    width: 34%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
